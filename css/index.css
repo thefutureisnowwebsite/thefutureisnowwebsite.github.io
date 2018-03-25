@@ -192,11 +192,16 @@ footer {
 
 
 /*---make a basic box ---*/
-h2, h3, h4,h5, h6, p{
+h2, h3, h4,h5, h6{
 	margin-top: 20px;
 	margin-left: 20%;
 	margin-right: 20%;
 
+}
+p{
+	margin-top: 5px;
+	margin-left: 20%;
+	margin-right: 20%;
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -301,8 +306,22 @@ nav ul ul li:hover ul{
 	top:0px;
 }
 .shapeuptwitter{
+	float:right;
+    margin-top:45px;
+    margin-right:20%;
+    padding-left: 10px;
+    
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 	
-    margin-top:15px;
+
+}
+.shapeuptwittermain{
+	
+    margin-top:25px;
     margin-right:20%;
     padding-left: 10px;
     float:right;
@@ -310,7 +329,7 @@ nav ul ul li:hover ul{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center;float:right;
 	
 
 }
@@ -374,4 +393,18 @@ nav ul ul li:hover ul{
 .titles{
 	margin-top: 6%;
 	text-align: center;
+}
+.listofmembers{
+	
+	color: #fff;
+	text-decoration: none;
+}
+.listofmembersoutdiv{
+	margin-left: 20%;
+	padding-top: 10px;
+	
+}
+
+.h4title{
+	padding-top: 20px;
 }
