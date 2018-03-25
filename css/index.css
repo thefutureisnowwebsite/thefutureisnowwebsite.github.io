@@ -32,6 +32,21 @@ body {
   	
  	
 }
+.titlepagesubtitle{
+	width: 200px;
+	position: absolute;
+	left: 50%;
+	margin-left: -60px;
+	border: 0px solid black;
+    
+    white-space: nowrap;
+
+	margin-top: 23%;	
+	color:#b0c4de;
+	font-size: 20px;
+  	
+ 	
+}
 .container {
 	width: 80%
 	margin: 0 auto;
@@ -172,7 +187,7 @@ footer {
 	margin: center;
 	text-align: center;
 	display: inline-block;
-	background-color: #99badd;
+	background-color: #b0c4de;
 }
 
 
@@ -287,10 +302,11 @@ nav ul ul li:hover ul{
 }
 .shapeuptwitter{
 	
-    margin-top:3px;
+    margin-top:15px;
     margin-right:20%;
+    padding-left: 10px;
     float:right;
-    background:#707070;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -306,6 +322,56 @@ nav ul ul li:hover ul{
 	padding-top: 10px;
 }
 .footerimages:hover{
-	width: 41px;
+	padding-top: 8px;
+	padding-bottom: 12px;
 	
+}
+.bodytext{
+	margin-right: 50%;
+}
+
+.frontimages{
+	max-width:400px;
+	padding-right: 10px;
+	margin-top:9px;
+    margin-left:20%;
+
+    float:left;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;float:left;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.frontimagesright{
+	max-width:400px;
+	padding-left: 10px;
+	margin-top:9px;
+    margin-right:20%;
+
+    float:right;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;float:right;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.lowerptext{
+	margin-left: 50%;
+}
+.titles{
+	margin-top: 6%;
+	text-align: center;
 }
