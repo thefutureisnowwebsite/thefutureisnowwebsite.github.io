@@ -306,16 +306,16 @@ nav ul ul li:hover ul{
 	top:0px;
 }
 .shapeuptwitter{
-	float:right;
+	
     margin-top:45px;
     margin-right:20%;
-    padding-left: 10px;
+    
     
     
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center;float:right;
 	
 
 }
@@ -324,7 +324,7 @@ nav ul ul li:hover ul{
     margin-top:25px;
     margin-right:20%;
     padding-left: 10px;
-    float:right;
+    
     
     display: flex;
     flex-direction: column;
@@ -355,17 +355,14 @@ nav ul ul li:hover ul{
 	margin-top:9px;
     margin-left:20%;
 
-    float:left;
+    
     
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;float:left;
     
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+
 
 }
 .frontimagesright{
@@ -374,17 +371,14 @@ nav ul ul li:hover ul{
 	margin-top:9px;
     margin-right:20%;
 
-    float:right;
+    
     
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;float:right;
     
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+ 
 
 }
 .lowerptext{
