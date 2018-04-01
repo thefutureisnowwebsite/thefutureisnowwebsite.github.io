@@ -237,7 +237,7 @@ p{
 
 nav {
 	height:40px;
-	width:800; 
+	width:1036; 
 	display:block;
 	margin:0 auto;
 	text-align: center;
@@ -266,7 +266,7 @@ nav ul{
 
 nav ul li{
 	float:left;
-	width: 160px;
+	width: 148px;
 	height:40px;
 	line-height: 40px;
 	background:#555;
@@ -399,6 +399,21 @@ nav ul ul li:hover ul{
 	
 }
 
+.elec{
+	background-color: red;
+}
 .h4title{
 	padding-top: 20px;
 
+}
+.footertext{
+	padding-bottom: 3px;
+	color: black;
+}
+
+.subtitleelec{
+	
+
+	text-align: center;
+	font-size: 20px;
+}
