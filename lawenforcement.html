@@ -5,7 +5,7 @@
     <title>The Future is Now</title>
     <link rel="icon" type="image/bmp" href="smolicon.bmp"/>
     <link rel="stylesheet" href="css/index.css" />
-
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -13,134 +13,57 @@
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-
-    
 </head>
-
 <body>
-<header>
-    <div class="container">
-         
-    
-        <nav>
-                    <ul>
-                        <li><a href="CountyCouncil.html">County Council</a>
-                            <ul>
-                                <li><a href="people/BillyShreve.html">Billy Shreve</a></li>
-                                <li><a href="people/JessicaFitzwater.html">Jessica Fitzwater</a></li>
-                                <li><a href="people/McKeeganAyer.html">M.C. Keegan-Ayer</a></li>
-                                <li><a href="people/BudOtis.html">Bud Otis</a>
-                                <li><a href="people/TonyChmelik.html">Tony Chmelik</a>
-                                <li><a href="people/JerryDonald.html">Jerry Donald</a>
-                                <li><a href="people/KirbyDelauter.html">Kirby Delauter</a>
-                            
-                                
-
-                            </ul>
-                        </li>
-                        <li><a href="BOA.html">City of Frederick</a>
-                            <ul>
-                                <li><a href="people/MichaelO'Connor.html">Michael O'Connor</a></li>
-                                <li><a href="people/KellyRussell.html">Kelly Russell</a></li>
-                                <li><a href="people/DerekShackelford.html">Derek Shackelford</a></li>
-                                <li><a href="people/RogerWilson.html">Roger Wilson</a>
-                                <li><a href="people/DonnaKuzemchak.html">Donna Kuzemchak</a>
-                                <li><a href="people/BenMacShane.html">Ben MacShane</a>
-                            </ul>
-                        </li>
-                        <li><a href="LawEnforcement.html">Law Enforcement</a>
-                            <ul>
-                                <li><a href="people/CharlesJenkins.html">Charles Jenkins</a></li>
-                                
-                            </ul>
-                        </li>
-                        
-                        <li><a href="index.html">
-                            <img href="index.html" src="img/bridge.png" alt = "logo" class="logo" ></a></li>
-                        <li><a href="GeneralAssembly.html">General Assembly</a>
-                            <ul>
-                                <li><a href="people/RonaldYoung.html">Ronald Young</a></li>
-                                <li><a href="people/CarolKrimm.html">Carol Krimm</a></li>
-                                <li><a href="people/>KarenYoung.html">Karen Young</a></li>
-                                <li><a href="people/WilliamFolden.html">William Folden</a>
-                                <li><a href="people/MichaelHough.html">Michael Hough</a>
-                                <li><a href="people/KathrynAfzali.html">Kathryn Afzali</a>
-                                <li><a href="people/BarrieCiliberti.html">Barrie Ciliberti</a>
-                                <li><a href="people/DavidVogt.html">David Vogt</a>
-                            </ul>
-                        </li>
-                        <li><a href="Education.html">Education</a>
-                            <ul>
-                                <li><a href="people/BradYoung.html">Brad Young</a></li>
-                                <li><a href="people/AprilMiller.html">April Miller</a></li>
-                                <li><a href="people/LizBarrett.html">Liz Barrett</a></li>
-                                <li><a href="people/MichaelBunitsky.html">Michael Bunitsky</a></li>
-                                <li><a href="people/ColleenCusimano.html">Colleen Cusimano</a></li>
-                                <li><a href="people/KenKerr.html">Ken Kerr</a></li>
-                                <li><a href="people/JoySchaefer.html">Joy Schaefer</a></li>
-                                <li><a href="people/WillAnderson.html">Will Anderson</a></li>
-                            </ul>
-                        </li>
-                        
-                        
-                        <li><a class = "elec" href="Elections.html">2018 elections</a>
-                            <ul>
-                                <li><a href="CountyCouncil.html">County Council</a>
-                                <li><a href="CityCouncil'Connor.html">City of Frederick</a></li>
-                                <li><a href="LawEnforcement.html">Law Enforcement</a>
-                                <li><a href="GeneralAssembly.html">General Assembly</a></li>
-                                
-                                <li><a href=">Education.html">Education</a></li>
-                            </ul>
+    <header>
+    <!--Navigation bar-->
+        <div id="nav-placeholder"></div>
+        <script>
+            $(function(){
+                $("#nav-placeholder").load("nav.html");
+            });
+        </script>
+    <!--end of Navigation bar-->
+    </header>
 
 
-                        </li>
-                    </ul>
-                </nav>
+    <h1 class = "titles">Law Enforcement</h1>
+    <div class = "mainbody">
+        <h2 >About the Shierff</h2>
+        <img src="img/sheriff.png" class="frontimagesrightheight" >
+        <p class = "textindv">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sollicitudin enim in lectus sagittis lacinia. Sed tempus lorem quis velit eleifend, non fermentum ipsum imperdiet. Phasellus dictum viverra nibh, quis molestie ipsum aliquam at. Nunc laoreet, justo ac ullamcorper facilisis, nisi sem auctor massa, eget imperdiet ante lorem nec libero. Aenean vitae nisl massa. Maecenas id libero mauris. Sed tempus malesuada diam sed ullamcorper. Nunc at dictum turpis. Fusce dignissim gravida augue ac aliquam. Curabitur pharetra massa ut tortor efficitur malesuada. Fusce a iaculis libero, vitae porttitor massa. Maecenas ultrices ex id mi efficitur, ut elementum neque feugiat. In hac habitasse platea dictumst. Cras iaculis justo sed est interdum mattis.Lorem ipsum dolor sit amet, consectetur adipiscing eli. Vestibulum sollicitudin enim in lectus sagittis lacinia. Sed tempus lorem quis velit eleifend, non fermentum ipsum imperdiet. Phasellus dictum viverra nibh, quis molestie ipsum aliquam at. </p>
+        <div class="row">
+            <div class="column left">
+                <h4 class = "h4title">Office Location</h4>
+                <p>110 Airport Drive East</p> 
+                <p>Frederick, MD 21701</p> 
+                <div class = "listofmembersoutdiv">
+                    <li><a class = "listofmembers" href="https://www.cityoffrederick.com/122/Board-of-Aldermen">Frederick County BOA website</a></li>
+                    <li><a class = "listofmembers" href="#">###</a></li>
+                    <li><a class = "listofmembers" href="#">###</a></li>
+                    <li><a class = "listofmembers" href="#">###</a></li>
+                    <li><a class = "listofmembers" href="#">###</a></li>
+                </div>
+            </div>
+            <div class="column right">
+                <div class = "shapeuptwitter">
+                    <a class="twitter-timeline" data-width="400" data-height="500" href="https://twitter.com/FredCoSheriff?ref_src=twsrc%5Etfw">Tweets by FredCoSheriff</a> 
+                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+            </div>
+        </div>
     </div>
-</header>
-
-
-<h1 class = "titles">Law Enforcement</h1>
-<h2 >About the Sheriff</h2>
-    
-    
-    <img src="img/sheriff.png" class="frontimagesright" >
-    <p class = "textindv">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sollicitudin enim in lectus sagittis lacinia. Sed tempus lorem quis velit eleifend, non fermentum ipsum imperdiet. Phasellus dictum viverra nibh, quis molestie ipsum aliquam at. Nunc laoreet, justo ac ullamcorper facilisis, nisi sem auctor massa, eget imperdiet ante lorem nec libero. Aenean vitae nisl massa. Maecenas id libero mauris. Sed tempus malesuada diam sed ullamcorper. Nunc at dictum turpis. Fusce dignissim gravida augue ac aliquam. Curabitur pharetra massa ut tortor efficitur malesuada. Fusce a iaculis libero, vitae porttitor massa. Maecenas ultrices ex id mi efficitur, ut elementum neque feugiat. In hac habitasse platea dictumst. Cras iaculis justo sed est interdum mattis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sollicitudin enim in lectus sagittis lacinia. Sed tempus lorem quis velit eleifend, non fermentum ipsum imperdiet. Phasellus dictum viverra nibh, quis molestie ipsum aliquam at.   </p>
-    <h2> </h2>
-    <h2> </h2>
-    <h2 >Karl Bickel</h2>
-
-    <p class = "textindv">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sollicitudin enim in lectus sagittis lacinia. Sed tempus lorem quis velit eleifend, non fermentum ipsum imperdiet. Phasellus dictum viverra nibh, quis molestie ipsum aliquam at. Nunc laoreet, justo ac ullamcorper facilisis, nisi sem auctor massa, eget imperdiet ante lorem nec libero. Aenean vitae nisl massa. Maecenas id libero mauris. Sed tempus malesuada diam sed ullamcorper. Nunc at dictum turpis. Fusce dignissim gravida augue ac aliquam. Curabitur pharetra massa ut tortor efficitur malesuada. Fusce a iaculis libero, vitae porttitor massa. Maecenas ultrices ex id mi efficitur, ut elementum neque feugiat. In hac habitasse platea dictumst. Cras iaculis justo sed est interdum mattis.  </p>
-
-<div class = "shapeuptwitter">
-    
-    <a class="twitter-timeline" data-width="400" data-height="500" href="https://twitter.com/FredCoSheriff?ref_src=twsrc%5Etfw">Tweets by FredCoSheriff</a> 
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    
-</div>
-<h4 class = "h4title">Office Location</h4>
-<p>110 Airport Drive East</p> 
-<p>Frederick, MD 21701</p> 
-
-    
-</div>
-
-<h4 >Important Links</h4>
-    <div class = "listofmembersoutdiv">
-    <li><a class = "listofmembers" href="#">###</a></li>
-    <li><a class = "listofmembers" href="#">###</a></li>
-    <li><a class = "listofmembers" href="#">###</a></li>
-    <li><a class = "listofmembers" href="#">###</a></li>
-    <li><a class = "listofmembers" href="#">###</a></li>
-</div>
 </body>
+
 <footer>
     <img src="img/fb.png" class="footerimages" >
     <img src="img/twitter.png" class="footerimages" >
     <img src="img/slack.png" class="footerimages" >
     <img src="img/meetup.png" class="footerimages" >
     <p href= "http://omnifiedtech.com" class = "footertext">Website Design & Development: Omnified Technologies</p>
-    
 </footer>
-</html> 
+
+</html>
+</DOCTYPE>
+    
+ 
