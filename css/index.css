@@ -260,7 +260,7 @@ footer {
 
 nav {
 	height:40px;
-	width:1036; 
+	width:1085; 
 	display:block;
 	margin:0 auto;
 	text-align: center;
@@ -289,7 +289,7 @@ nav ul{
 
 nav ul li{
 	float:left;
-	width: 148px;
+	width: 155px;
 	height:40px;
 	line-height: 40px;
 	background:#555;
